@@ -2,7 +2,6 @@ name: Lint Test Deploy
 on: push
 jobs:
   lint:
-    needs: lint
     runs-on: ubuntu-latest
     steps:
       - name: Get code
